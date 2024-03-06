@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+}
+
+.container {
+    box-shadow: 0px 0px 20px 15px #1f2a36;
+    border: 0.5px solid #ffffff62;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.buttons button {
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: transparent;
+    margin: 10px;
+    outline: 1px solid #313131;
+    outline-offset: 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: -5px -6px 15px #000000;
+    border: none;
+}
+
+.container input {
+    width: 250px;
+    text-align: right;
+    background: transparent;
+    border: none;
+    padding: 20px;
+    outline: none;
+    font-size: 40px;
+    color: white;
+}
+
+.btn-1 button,
+.btn-2 :last-child,
+.btn-3 :last-child,
+.btn-4 :last-child {
+    color: yellow;
+    background: #1e1919;
+}
+
+.btn-5 :last-child {
+    background-color: rgb(250, 21, 5);
+    font-size: 18px;
+}
+
+.buttons button:active{
+    
+    color: #000000;
+    transform: translate(2px,2px);
+}
